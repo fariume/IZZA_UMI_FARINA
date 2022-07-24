@@ -1,0 +1,183 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+h1 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+h3 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+h5 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+p {text-align: center;}
+p {font-family: Arial, Helvetica, sans-serif;}
+div {text-align: center;}
+image {text-align: center;}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(205,183,181);
+    background-blend-mode: overlay;
+    outline: black;
+  }
+  
+  li {
+    float: left;
+    outline: 0;
+    outline-color: black;
+    padding: 3px 60px
+  }
+  
+  li a {
+    font-size: 20;
+    transition: all 0.3s ease 0s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(139,125,123);
+  }
+
+  button{
+    padding: 9px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+}
+
+nav .logo{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0px 30px;
+    height: 10px;
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background:rgba(255, 0, 242, 0.395)
+    border-bottom 1px solid #fff;
+}
+
+#footer{
+    font-family: 'Jost', sans-serif;
+    font-size: 17;
+    background-color: rgb(139,125,123);
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+  
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgb(205,183,181);
+}
+  
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+  
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+  
+.footer ul li a:hover{
+    opacity: 1;
+    background-color:rgb(205,183,181);
+}
+  
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
