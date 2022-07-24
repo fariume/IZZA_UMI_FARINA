@@ -169,8 +169,8 @@ input[name="r"]{
 }
 
 .slides{
-  width: 600px;
-  height: 310px;
+  width: 500%;
+  height: 100%;
   display: flex;
 }
 
